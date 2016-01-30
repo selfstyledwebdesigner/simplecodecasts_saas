@@ -1,6 +1,5 @@
 Rails.application.routes.draw 
-  root 'pages#home
-  '
+  root 'pages#home'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -17,7 +16,7 @@ Rails.application.routes.draw
   #   resources :products
 
   # Example resource route with options:
-  #   resources :products do
+  #   resources :products dog
   #     member do
   #       get 'short'
   #       post 'toggle'
